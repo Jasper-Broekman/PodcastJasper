@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../Downloads/old-football-green-artificial-grass-field-football-soccer-sport-game-competition.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    max-height: 710px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 10px;
+    min-height: 400px;
+    margin-right: 10px;
+    font-size: 22px;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease-in;
+}
+
+ul li a:hover{
+    border-bottom: 4px solid rgb(255, 255, 255);
+    transition: 1s ease;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+}
+
+.alleenhome{
+    background-color: #819b7b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 800px;
+}
+
+.footerhome{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerhome p{
+    margin: 0;
+    font-size: 15px;
+    padding-top: 45px;
+}
+
+.footerhome .socials{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footerhome .socials li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footerhome .socials li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.footerhome .socials li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*homepagina inhoud*/
+
+.name{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.name h1{
+    color: #ffffff;
+    font-size: 120px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.arrow{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 90px;
+    padding-top: 30 px;
+}
+
+.hoi{
+    position: absolute;
+    top: 970px;
+    right: 160px;
+    left: 800px;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #819b7b;
+    color: #ffffff;
+    border: #0000;
+    border-radius: 60px;
+}
+
+.welkom{
+    position: absolute;
+    float: right;
+    top: 1070px;
+    right: 140px;
+    left: 840px;
+    font-size: 33px;
+    padding: 55px;
+}
+
+video{
+    position: absolute;
+    top: 1080px;
+    padding-left: 170px;
+    width: 700px;
+    width: 500px;
+}
+
+/*over ons pagina*/
+
+.overons{
+    background-color: #819b7b;
+    background-size: cover;
+    background-position: center;
+}
+
+.overonstitel{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-size: 60px;
+    border: 3px solid #ffffff;
+    border-radius: 40px;
+    padding: 20px;
+}
+.intro{
+    position: absolute;
+    top: 300px;
+    right: 820px;
+    left: 140px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 55px;
+    box-shadow: 0 0 30px black;
+
+
+}
+
+.pimjasper{
+    position: absolute;
+    top: 350px;
+    right: 140px;
+    left: 840px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.Jasper{
+    position: absolute;
+    top: 1100px;
+    right: 450px;
+    left: 240px;
+    font-size: 27px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+.Pim{
+    position: absolute;
+    top: 1420px;
+    right: 240px;
+    left: 450px;
+    font-size: 27px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+.jasperprofiel{
+    position: absolute;
+    top: 990px;
+    right: 900px;
+    left: 0;
+    width: 400px;
+    height: 230px;
+}
+
+.pimprofiel{
+    position: absolute;
+    top: 1320px;
+    right: 40px;
+    left: 1160px;
+    width: 187px;
+    height: 187px;
+}
+
+.rest{
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 2000px;
+}
+
+.footercontainer{
+    min-width: 1470px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footercontainer p{
+    margin: 0;
+    font-size: 15px;
+    padding-top: 45px;
+}
+
+.footercontainer .socials{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footercontainer .socials li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footercontainer .socials li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.footercontainer .socials li a:hover {
+    text-decoration: underline;
+    color: #819b7b;
+}
+
+/*afleveringen*/
+
+.afleveringen{
+    background-color: #819b7b;
+    background-size: cover;
+    background-position: center;
+}
+
+.containertje{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containertje .card{
+    position: relative;
+    min-width: 1100px;
+    max-width: 1500px;
+    background: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 170px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px black;
+}
+
+.card img{
+    padding: 15px;
+}
+
+.containertje .card p{
+    font-size: 25px;
+}
+
+.containertje .card h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+/*toevoeging footer*/
+.rest2{
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 200px
+}
+
